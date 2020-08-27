@@ -1,0 +1,18 @@
+@{
+    var i = 1;
+    foreach (ItemPedido p in Dados.PedidoAtual.listar()){
+        <div>
+            <ul>
+                <h3><strong>Item @i</strong></h3>
+                <li>Descrição: @p.Descricao</li>
+                <li>Valor: R$@p.ValorUnidade</li>
+                <li>Quantidade: @p.Quantidade</li>
+            </ul>
+        </div>
+        i++;
+    }
+    <div>
+        <h3>Total do pedido: </h3>
+        <p>R$@Dados.PedidoAtual.finalizar()</p>
+    </div>
+}
