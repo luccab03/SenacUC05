@@ -1,0 +1,35 @@
+@{
+    @model Consulta
+    ViewData["Title"] = "Agendamento";
+}
+
+
+<h2 style="padding-bottom: 10px;">Pré-Agendamento</h2>
+<form method="POST">
+    <p>
+        <label asp-for="Nome">Nome: </label>
+        <input asp-for="Nome" />
+    </p>
+    <p>
+        <label asp-for="Telefone">Telefone: </label>
+        <input asp-for="Telefone" />
+    </p>
+    <p>
+        <label asp-for="Data">Data: </label>
+        <input asp-for="Data" />
+    </p>
+    <p>
+        <label asp-for="Animal">Animal: </label>
+        <select asp-for="Animal">
+            <option value="Gato">Gato</option>
+            <option value="Cachorro">Cachorro</option>
+        </select>
+    </p>
+    <p>
+        <label asp-for="Desc">Descrição: </label>
+        <textarea asp-for="Desc"></textarea>
+    </p>
+    <p>
+        <input type="submit" text="Enviar">
+    </p>
+</form>

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PetVet</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/sites.css" />
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="navbar">
+                <a asp-controller="Home" asp-action="Index">PetVet</a>
+            </h1>
+            <nav class="navbar navbar-light bg-white border-bottom mb-3">
+                <div>
+                    <a asp-area="" asp-controller="Home" asp-action="Index">Ínicio</a><span> | </span>
+                    <a asp-area="" asp-controller="Home" asp-action="Servicos">Serviços</a><span> | </span>
+                    <a asp-area="" asp-controller="Home" asp-action="Agendamento">Agendamento</a><span> | </span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div style="padding-left: 14px;">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="border-top footer text-muted" style="background-color: white;">
+        <div>
+            <p>&copy; 2020 - Lucca Bringhenti</p>
+            <ul>
+                <li>Telefone: (xx)xxxx-xxxx</li>
+                <li>Endereço: Rua x, 10 - Porto Alegre, RS</li>
+                <li>Email: contato@petvet.com.br</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

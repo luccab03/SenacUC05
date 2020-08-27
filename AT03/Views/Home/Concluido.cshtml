@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Agendamento";
+    Consulta consulta = ViewBag.Consulta;
+    string data = consulta.Data.ToString();
+}
+
+<h2>Sua consulta foi agendada com sucesso</h2>
+<h3>Dados da sua consulta: </h3>
+<p>Nome: @consulta.Nome</p>
+<p>Telefone: @consulta.Telefone</p>
+<p>Data: @consulta.Data</p>
+<p>Animal: @consulta.Animal</p>
+<p>Descrição: @consulta.Desc</p>
