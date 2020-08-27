@@ -1,0 +1,12 @@
+/Users/luccab/Desktop/Curso/UC05/AT01/bin/Debug/netcoreapp3.1/AT01.deps.json
+/Users/luccab/Desktop/Curso/UC05/AT01/bin/Debug/netcoreapp3.1/AT01.runtimeconfig.json
+/Users/luccab/Desktop/Curso/UC05/AT01/bin/Debug/netcoreapp3.1/AT01.runtimeconfig.dev.json
+/Users/luccab/Desktop/Curso/UC05/AT01/bin/Debug/netcoreapp3.1/AT01.dll
+/Users/luccab/Desktop/Curso/UC05/AT01/bin/Debug/netcoreapp3.1/AT01.pdb
+/Users/luccab/Desktop/Curso/UC05/AT01/obj/Debug/netcoreapp3.1/AT01.csprojAssemblyReference.cache
+/Users/luccab/Desktop/Curso/UC05/AT01/obj/Debug/netcoreapp3.1/AT01.AssemblyInfoInputs.cache
+/Users/luccab/Desktop/Curso/UC05/AT01/obj/Debug/netcoreapp3.1/AT01.AssemblyInfo.cs
+/Users/luccab/Desktop/Curso/UC05/AT01/obj/Debug/netcoreapp3.1/AT01.csproj.CoreCompileInputs.cache
+/Users/luccab/Desktop/Curso/UC05/AT01/obj/Debug/netcoreapp3.1/AT01.dll
+/Users/luccab/Desktop/Curso/UC05/AT01/obj/Debug/netcoreapp3.1/AT01.pdb
+/Users/luccab/Desktop/Curso/UC05/AT01/obj/Debug/netcoreapp3.1/AT01.genruntimeconfig.cache
